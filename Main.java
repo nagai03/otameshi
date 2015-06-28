@@ -1,8 +1,10 @@
- 1. Main クラスを作成し，適切なディレクトリに保存する．
- 2. Main クラスに main メソッドを用意する．
+package com.github.finder;
 
-  ・Main のコンストラクタを呼び出すのみ．
+public class Main{
+    public Main(String[] arguments){
+    }
 
- 3. Main のコンストラクタを用意する．
-
-  ・Main のコンストラクタは String 型の配列を受け取る
+    public static void main(String[] args){
+        new Main(args);
+    }
+}
